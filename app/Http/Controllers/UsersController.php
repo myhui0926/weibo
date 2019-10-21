@@ -41,7 +41,7 @@ class UsersController extends Controller
         $user = User::create([
             'name'=>$request->name,
             'email'=>$request->email,
-            'password'=>bcrypt($request->password),
+            'password'=> bcrypt($request->password),
         ]);
        $this->sendEmailConfirmationTo($user);
         session()->flash('success', '感谢注册weibo应用，验证邮件已发送到你的注册邮箱上，请注意查收！');
