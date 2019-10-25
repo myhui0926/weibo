@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6fd43e1f90db9e36ea5603cf5ab458d6",
+    "content-hash": "f2b238a2753d4f6ee3f2a4e1f1151851",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -577,7 +577,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -658,7 +658,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -746,7 +746,7 @@
                 "shasum": "",
                 "mirrors": [
                     {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
                         "preferred": true
                     }
                 ]
@@ -2376,16 +2376,16 @@
         },
         {
             "name": "overtrue/laravel-lang",
-            "version": "3.0.15",
+            "version": "3.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/overtrue/laravel-lang.git",
-                "reference": "555007487344fca450342b0dd19a6ae3bac237e2"
+                "reference": "44917b643ca49d1bbac54f205cd6a51f2e71908f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/overtrue/laravel-lang/zipball/555007487344fca450342b0dd19a6ae3bac237e2",
-                "reference": "555007487344fca450342b0dd19a6ae3bac237e2",
+                "url": "https://api.github.com/repos/overtrue/laravel-lang/zipball/44917b643ca49d1bbac54f205cd6a51f2e71908f",
+                "reference": "44917b643ca49d1bbac54f205cd6a51f2e71908f",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2399,13 +2399,6 @@
                 "symfony/process": "^3.0|^4.0"
             },
             "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Overtrue\\LaravelLang\\TranslationServiceProvider"
-                    ]
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Overtrue\\LaravelLang\\": "src/"
@@ -2430,7 +2423,7 @@
                 "laravel",
                 "overtrue"
             ],
-            "time": "2019-01-22T07:10:12+00:00"
+            "time": "2019-03-02T05:41:26+00:00"
         },
         {
             "name": "paragonie/random_compat",
